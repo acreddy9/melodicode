@@ -1,6 +1,8 @@
-README
+MelodiCode
 
-MelodiCode uses artificial intelligence to take on the complex task of musical composition. It analyzes the patterns of pitch, rhythm, and dynamics in several piano songs and composes a song of similar style/genre using a recurrent neural network.
+MelodiCode uses artificial intelligence to take on the complex task of musical composition. We built off Skuldur's work (see link below), which generated songs solely based on pitch analysis, by implementing a recurrent network that alsop analyzes patterns of rhythm, and dynamics in several piano songs and composes a song of similar style/genre.
+
+https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
 
 To use: 
 1. Download and open the 'MelodiCodeNN.ipynb' file in Google Colab.
